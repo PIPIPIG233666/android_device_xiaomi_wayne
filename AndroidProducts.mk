@@ -15,3 +15,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/mk_wayne.mk
+
+COMMON_LUNCH_CHOICES := \
+    mk_wayne-eng \
+    mk_wayne-userdebug
