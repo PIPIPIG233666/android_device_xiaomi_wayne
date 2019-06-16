@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_xiaomi_wayne",
+    "target_path": "vendor/xiaomi/wayne"
+  },
+  {
     "repository": "android_device_xiaomi_wayne-common",
     "target_path": "device/xiaomi/wayne-common"
   }
