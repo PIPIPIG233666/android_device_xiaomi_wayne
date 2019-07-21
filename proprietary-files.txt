@@ -1341,12 +1341,6 @@ lib64/vendor.qti.hardware.perf@1.0.so
 lib64/libqti-perfd-client_system.so
 vendor/bin/energy-awareness
 vendor/bin/msm_irqbalance
-vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
-vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
-vendor/etc/perf/commonresourceconfigs.xml
-vendor/etc/perf/perfboostsconfig.xml
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml
 vendor/lib/libperfgluelayer.so
 vendor/lib/libqti-perfd-client.so
 vendor/lib/libqti-perfd.so
@@ -1359,6 +1353,10 @@ vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
 vendor/lib64/libqti-utils.so
 vendor/lib64/vendor.qti.hardware.perf@1.0.so
+
+# Perfmgr - from taimen QPP1.190205.018.B4
+vendor/lib/libqti-perfd-client.so|08c3c3d419f4171ddf3b5809ec89ff8311c0af98
+vendor/lib64/libqti-perfd-client.so|3a2899e8aaa6cc1d853487da3859083d2a7f3801
 
 # IOP
 lib/vendor.qti.hardware.iop@1.0.so
